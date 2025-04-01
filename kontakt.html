@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skontaktuj się z UKS Ruch Radzionków - dane kontaktowe, formularz, mapa.">
+    <title>Kontakt - UKS Ruch Radzionków</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">UKS Ruch Radzionków</a>
+            <nav class="main-nav">
+                 <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                <ul>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="o-nas.html">O Nas</a></li>
+                    <li><a href="mecze.html">Mecze Wyjazdowe</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section-padding">
+        <div class="container">
+            <h1>Skontaktuj się z Nami</h1>
+
+            <div class="grid-2-col top-margin">
+                <div class="contact-details">
+                    <h2>Dane Kontaktowe</h2>
+                    <p><strong>UKS Ruch Radzionków</strong></p>
+                    <p>ul. Knosały 113-115 (adres orientacyjny MOSiR)</p>
+                    <p>41-922 Radzionków</p>
+                    <p><strong>Email:</strong> <a href="mailto:kontakt@przykladowy-uks.pl">kontakt@przykladowy-uks.pl</a></p>
+                    <p><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a> (w godz. X-Y)</p>
+
+                    <h3 class="top-margin">Znajdź nas na mapie:</h3>
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.98908997615!2d18.8944!3d50.3636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112c0707a58b7b%3A0x4e4b8a7601d9e4d1!2sMiejski%20O%C5%9Brodek%20Sportu%20i%20Rekreacji!5e0!3m2!1spl!2spl!4v1711967155000!5m2!1spl!2spl" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                     <h3 class="top-margin">Media Społecznościowe:</h3>
+                     <div class="social-links contact-social">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2>Napisz do Nas</h2>
+                    <p>Masz pytania dotyczące naboru, treningów lub chcesz nawiązać współpracę? Wypełnij formularz:</p>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Imię i Nazwisko:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adres E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="subject">Temat:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość:</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <div class="form-group">
+                             <input type="checkbox" id="rodo" name="rodo" required>
+                             <label for="rodo" class="inline-label">Wyrażam zgodę na przetwarzanie moich danych osobowych...</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Wyślij Wiadomość</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer section-padding">
+        <div class="container">
+            <p>&copy; 2025 UKS Ruch Radzionków. Wszelkie prawa zastrzeżone.</p>
+            <p>ul. Przykładowa 1, 41-922 Radzionków | <a href="mailto:kontakt@uksruchradzionkow.pl">kontakt@uksruchradzionkow.pl</a> | tel: 123-456-789</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
